@@ -1,0 +1,306 @@
+body{
+  background-color: #282828;
+  color: #fffffd;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+li{
+  font-size: 12px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+.ajanlas{
+width: 100%;
+height: 800px;
+}
+
+.hatter1{
+  background-color: #282828;
+  padding: 10px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#menu>ul>li>a{
+  text-decoration: none;
+  color: #fffffd;
+  font-size: 13px;
+}
+
+#menu{
+  width: 45%;
+}
+
+
+
+#menu>ul>li{
+  list-style: none;
+  padding: 5px;
+  padding-right: 15px;
+}
+
+#menu>ul{
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  margin: 0;
+  width: 50%;
+}
+
+#menu>ul>li>a:hover{
+  color: red;
+  }
+
+.kep{
+  text-align: center;
+}
+
+.kep>img
+{
+  width: 50%;
+}
+
+.resz>h3{text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.resz{
+  border-right: 2.3px solid rgba(255, 0, 0, 0.679);
+  padding: 9px;
+}
+
+.resz>ul{padding-left: 20px;}
+
+.resz>ul>li{list-style: circle;
+  background-size: 10px;
+  line-height: 17px;
+  padding: 4px;
+}
+
+.grid{
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding-top: 50px;
+  margin: auto;
+  width: 80%;
+  max-width: 980px;
+  gap: 100px;
+  padding-top: 150px;
+}
+
+hr{
+  height: 2px;
+  color: rgba(255, 0, 0, 0.679);
+  background-color:rgba(255, 0, 0, 0.679);
+  border-width: 0;
+  width: 100%;
+}
+
+.resz2{
+  width: 100%;
+  background-color: #000000;
+  height: 840px;
+}
+
+.kep2{
+  width: auto;
+  height: auto;
+  
+}
+
+p{
+  color: #ffffff;
+}
+
+.resz3{
+  background-color: #000000;
+  width: 100%; 
+}
+
+.tartalom3{
+  width: 40%;
+  max-width: 600px;
+  padding-top: 100px;
+  margin-top: 40px;
+  margin: auto;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 95%;
+  max-width: 950px;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-right: 10%;
+  gap: 12%;
+  
+}
+
+.iras{
+  width: 60%;
+  margin-top: 0;
+}
+
+.felso1{
+  font-size: 42px;
+  margin-bottom: 0px;
+  
+}
+
+.kepek3{
+  text-align: center;
+}
+
+.kepek3>img{
+  width: 75%;
+  border-radius: 50%;
+}
+
+button{
+  background: #0097da;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 7px 28px;
+  border-radius: 7px;
+  width: 120%;
+  text-transform: uppercase;
+}
+
+.nevek{
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  color: #ffffff;
+}
+
+.iras2{
+  text-align: center;
+  color: #faf3f4;
+}
+
+@media screen and (max-width: 800px) {
+  .grid{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap:80px;
+  }
+  .grid2{
+      grid-template-columns: repeat(1, auto);
+  }
+   
+  .resz{
+      border-right: 0;
+      height: 100%;
+      padding: 0%;
+  }
+  #menu>ul{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      list-style: none;
+      gap: 5px;
+      text-align: center;
+      margin-left: 0px;
+  }
+  #menu>ul>li{
+      border: 1px solid white;
+      
+  }
+  #menu>ul>li>a{
+      display: block;
+      padding: 5px;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  #menu>ul>li>a:hover{
+      color: black;
+      }
+  #menu>ul>li:hover{
+      background-color: white;
+
+  }
+  img{
+      width: 60%;
+  }
+  .kep2{
+      width: 100%;
+      height: auto;
+  }
+  h1{padding-top: 10px;}
+ .ajanlas{
+  width: 70%;
+  max-width: 500px;
+  margin: auto;
+  height: fit-content;
+ }
+ .resz2{
+  margin: auto;
+  height: fit-content;
+  }
+  #menu{
+     width: 100%;
+  }
+  .grid3{
+      grid-template-columns: repeat(1, auto);
+      width: 50%;
+      margin: auto;
+      padding-right: 0px;
+      gap: 6%;
+  }
+  .kepek3{
+      width: 70%;
+     margin: auto;
+  }
+  .resz3{
+      width: 100%;
+      height: 2160px;
+
+  }
+  button{
+      width: 210px;
+      font-size: 12px;
+  }
+  .nevek,.gomb{
+      text-align: center;
+  }
+  .iras2{
+      margin-bottom: 60px;
+  }
+  .tartalom3{
+      width: 50%;
+  }
+  .munkatars{
+  background-color: #282828;
+  height: 325px;
+  padding-top: 40px;
+  border-radius: 20px;
+  padding-left: 6px;
+  }
+
+}
